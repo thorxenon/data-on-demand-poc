@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStream é o brabo</title>
+
+    <style>
+        body{
+            width: 100%;
+            padding:0 1%;
+        }
+        .container{
+            width: 100%;
+        }
+        .grid{
+            padding-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            grid-gap: 10px;
+            align-items: stretch;
+        }
+        .grid>article{
+            border: 1px solid #ccc;
+        }
+
+        .grid .text{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+    <div class="container">
+        <main id="cards" class="grid">
+            <!-- <article>
+                <div class="text">
+                    <h3>Hello Items</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, quo. Deleniti nulla, numquam quasi molestiae dolore!</p>
+                    <a href="https://">Here's why</a>
+                </div>
+            </article>
+
+             <article>
+                <div class="text">
+                    <h3>Hello Items</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, quo. Deleniti nulla, numquam quasi molestiae dolore!</p>
+                    <a href="https://">Here's why</a>
+                </div>
+            </article>
+
+             <article>
+                <div class="text">
+                    <h3>Hello Items</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, quo. Deleniti nulla, numquam quasi molestiae dolore!</p>
+                    <a href="https://">Here's why</a>
+                </div>
+            </article>
+
+             <article>
+                <div class="text">
+                    <h3>Hello Items</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, quo. Deleniti nulla, numquam quasi molestiae dolore!</p>
+                    <a href="https://">Here's why</a>
+                </div>
+            </article>
+
+             <article>
+                <div class="text">
+                    <h3>Hello Items</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, quo. Deleniti nulla, numquam quasi molestiae dolore!</p>
+                    <a href="https://">Here's why</a>
+                </div>
+            </article>
+
+             <article>
+                <div class="text">
+                    <h3>Hello Items</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, quo. Deleniti nulla, numquam quasi molestiae dolore!</p>
+                    <a href="https://">Here's why</a>
+                </div>
+            </article> -->
+        </main>
+    </div>
+
+
+    <script src="./script/index.js" type="module"></script>
+</body>
+</html>
