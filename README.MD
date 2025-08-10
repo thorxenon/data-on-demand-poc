@@ -43,7 +43,7 @@ Este projeto é uma prova de conceito (POC) para consumo de dados em tempo real 
 - `server`: Backend (index.ts).
 
 ### Requisitos
-- **Node.js** (para backend)
+- **Node.js** 24 ou superior
 - **Navegador moderno** (Chrome, Edge, Firefox)
 
 ### Observações
